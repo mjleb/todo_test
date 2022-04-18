@@ -1,0 +1,671 @@
+{
+  "login": {
+    "login": "teset@test.ru",
+    "password": "12345678"
+  },
+  "logout": {
+    "status": "200"
+  },
+  "restorepassword": {
+    "name": "typicode"
+  },
+  "totalcompanies": {
+    "total": "1601",
+    "active": "1122"
+  },
+  "users": [
+    {
+      "id": "1",
+      "name": "Иванов Иван Иванович",
+      "post": "администратор",
+      "role": "superadmin",
+      "email": "superadmin@domain.ru",
+      "company_id": "1",
+      "status": "1"
+    },
+    {
+      "id": "2",
+      "name": "Фамилия2 Имя2",
+      "post": "должность",
+      "role": "admin",
+      "email": "email2@domain.ru",
+      "company_id": "1",
+      "status": "1"
+    },
+    {
+      "id": "3",
+      "name": "Петров Александр Иванович",
+      "post": "должность",
+      "role": "superoperator",
+      "email": "superoperator@domain.ru",
+      "company_id": "1",
+      "status": "1"
+    },
+    {
+      "id": "4",
+      "name": "Фамилия Имя 444",
+      "post": "Менеджер 2",
+      "role": "superoperator",
+      "email": "email44@domain.ru",
+      "company_id": "1",
+      "status": 0
+    },
+    {
+      "id": "5",
+      "name": "Длиннаяфамилия5 Имя5",
+      "post": "должность",
+      "role": "operator",
+      "email": "email5@domain.ru",
+      "company_id": "1",
+      "status": "2"
+    },
+    {
+      "id": "6",
+      "name": "Фамилия6 Имя6",
+      "post": "должность",
+      "role": "operator",
+      "email": "email6@domain.ru",
+      "company_id": "1",
+      "status": "2"
+    },
+    {
+      "id": "7",
+      "name": "Фамилия7 Имя7",
+      "post": "должность",
+      "role": "abonent",
+      "email": "email7@domain.ru",
+      "company_id": "234",
+      "status": "1"
+    },
+    {
+      "id": "8",
+      "name": "Фамилия8 Имя8",
+      "post": "должность",
+      "role": "abonent",
+      "email": "email2email2email2email2@domain.ru",
+      "company_id": "234",
+      "status": "1"
+    },
+    {
+      "id": "9",
+      "name": "Фамилия9 Имя9",
+      "post": "должность",
+      "role": "abonent",
+      "email": "abonent@domain.ru",
+      "company_id": "234",
+      "status": "1"
+    },
+    {
+      "id": "10",
+      "name": "Фамилия10 Имя210",
+      "post": "должность",
+      "role": "abonent",
+      "email": "email10@domain.ru",
+      "company_id": "234",
+      "status": "1"
+    },
+    {
+      "id": "m8",
+      "name": "Фамилия Имя Отчество",
+      "post": "Должность",
+      "role": "abonent",
+      "email": "mail@mail.ru",
+      "company_id": "234",
+      "status": 1
+    },
+    {
+      "id": "m93",
+      "name": "Ромашков Федор Петрович",
+      "post": "Менеджер",
+      "role": "abonent",
+      "email": "romashkov@dоmain.ru",
+      "company_id": "1",
+      "status": 1
+    }
+  ],
+  "company": [
+    {
+      "id": "1",
+      "taxid": "4848484848",
+      "regno": "545454",
+      "name": "Оператор АО",
+      "logo": "",
+      "status":1
+    },
+    {
+      "id": "234",
+      "taxid": "7878787878",
+      "regno": "343434",
+      "name": "Абонент ООО",
+      "logo": "",
+      "status":1
+    }
+  ],
+  "logo": [],
+  "abonents": [
+    {
+      "id": "438",
+      "name": "Абонент 1",
+      "logo": "html_logo.png",
+      "contract_number": "12385",
+      "contract_date": "20.03.2021",
+      "tariffid": 225,
+      "taxid": "888888888",
+      "kpp": "77777777",
+      "address": "Москва, Улица, дом, офис",
+      "phone": "000000000000000",
+      "personfio": "ФИО контакта",
+      "personpost": "менеджер",
+      "personphone": "111111",
+      "personemail": "abonent438@abonent.ru",
+      "traffic": "15",
+      "status": "1"
+    },
+    {
+      "id": "4133",
+      "name": "Абонент 2 2222",
+      "logo": "html_logo.png",
+      "contract_number": "65753",
+      "contract_date": "21.03.2021",
+      "tariffid": 225,
+      "taxid": "33333333333",
+      "kpp": "55555555555",
+      "address": "Моква, Улица, дом, офис 2",
+      "phone": "6666666666",
+      "personfio": "ФИО контакта",
+      "personpost": "менеджер",
+      "personphone": "111111",
+      "personemail": "abonent3133@abonent.ru",
+      "traffic": "2203",
+      "status": 1
+    },
+    {
+      "id": "4116",
+      "name": "Абонент 3",
+      "logo": "html_logo.png",
+      "contract_number": "ыаыа",
+      "contract_date": "20.03.2021",
+      "tariffid": 60,
+      "taxid": "45456456456",
+      "kpp": "22323223",
+      "address": "укукцукуц",
+      "phone": "кцукцук",
+      "personfio": "цкуцкцук",
+      "personpost": "цукцку",
+      "personphone": "цкуцку",
+      "personemail": "abonent6@abonent.ru",
+      "traffic": "1951",
+      "status": "1"
+    },
+    {
+      "id": "4205",
+      "name": "Абонент 5",
+      "logo": "html_logo.png",
+      "contract_number": "ываываыав",
+      "contract_date": "20.03.2021",
+      "tariffid": 75,
+      "taxid": "3435345435",
+      "kpp": "5676767567657",
+      "address": "сисимсимси",
+      "phone": "сми79798987",
+      "personfio": "вываыва",
+      "personpost": "ываываыва",
+      "personphone": "ываыва",
+      "personemail": "abonent6@abonent.ru",
+      "traffic": "1364",
+      "status": "2"
+    },
+    {
+      "id": "4240",
+      "name": "Абонент 6",
+      "logo": "html_logo.png",
+      "contract_number": "3456646-5675",
+      "contract_date": "12.01.2021",
+      "tariffid": 75,
+      "taxid": "565656565656",
+      "kpp": "78787878787",
+      "address": "Москва, ул. Улица, дом Н, офис 678",
+      "phone": "+7(000)000-00-00",
+      "personfio": "Фамилия Имя",
+      "personpost": "менеджер",
+      "personphone": "+7(000)000-00-12",
+      "personemail": "abonent6@abonent.ru",
+      "status": "1"
+    }
+  ],
+  "totaldevices": {
+    "total": "6631476",
+    "active": "5789345"
+  },
+  "tagslist": [
+    {
+      "id": "1",
+      "name": "Липецкая область"
+    },
+    {
+      "id": "2",
+      "name": "Филиал 7"
+    },
+    {
+      "id": "3",
+      "name": "Московская область"
+    },
+    {
+      "id": "4",
+      "name": "Филиал 12"
+    },
+    {
+      "id": "5",
+      "name": "Филиал 1"
+    },
+    {
+      "id": "6",
+      "name": "Филиал 27"
+    },
+    {
+      "id": "7",
+      "name": "Филиал 3"
+    },
+    {
+      "id": "8",
+      "name": "Филиал 19"
+    },
+    {
+      "id": "9",
+      "name": "Филиал 11"
+    },
+    {
+      "id": 39,
+      "name": "Филиал 21"
+    }
+  ],
+  "devicetype": [
+    {
+      "id": "1",
+      "name": "Тип устройства 1",
+      "status": "1",
+      "text": "Краткое описание типа устройства 1"
+    },
+    {
+      "id": "2",
+      "name": "Тип устройства 2",
+      "status": "1",
+      "text": "Краткое описание типа устройства 2"
+    },
+    {
+      "id": "3",
+      "name": "Тип устройства 3",
+      "status": "2",
+      "text": "Краткое описание типа устройства 3"
+    },
+    {
+      "id": "15",
+      "name": "Тип устройства 4",
+      "status": 1,
+      "text": "Краткое описание типа устройства 4"
+    },
+    {
+      "id": "68",
+      "name": "Название типа устройства 5",
+      "status": 1,
+      "text": "Краткое описание типа устройства 5"
+    },
+    {
+      "id": "ZXQVhvK",
+      "name": "Тип устройства 6",
+      "status": 1,
+      "text": "Краткое описание типа устройства 6"
+    }
+  ],
+  "devices": [
+    {
+      "id": "1",
+      "key": "2bac7814.3e06ac396d9897fe",
+      "file_private_key": "secret_key.txt",
+      "status": "2",
+      "idtype": "2",
+      "tags": [
+        1,
+        2,
+        7
+      ],
+      "traffic": "1362",
+      "connection_date": "21.02.2020  12:11"
+    },
+    {
+      "id": "2",
+      "key": "2bac7814.560da33ae16ace00",
+      "file_private_key": "secret_key.txt",
+      "status": "0",
+      "idtype": "1",
+      "tags": [
+        3,
+        4
+      ],
+      "traffic": "51",
+      "connection_date": "11.01.2020  12:11"
+    },
+    {
+      "id": "3",
+      "key": "2bac7814.3e06ac396d9897f6",
+      "file_private_key": "secret_key.txt",
+      "status": "1",
+      "idtype": "1",
+      "tags": [
+        1,
+        2
+      ],
+      "traffic": "1363",
+      "connection_date": "21.02.2020  12:11"
+    },
+    {
+      "id": "4",
+      "key": "2bac7814.560da33ae16ace00",
+      "file_private_key": "secret_key.txt",
+      "status": "0",
+      "idtype": "2",
+      "tags": [
+        3,
+        4
+      ],
+      "traffic": "56",
+      "connection_date": "11.01.2020  12:11"
+    },
+    {
+      "id": "5",
+      "key": "2bac7814.3e06ac396d9897fe",
+      "file_private_key": "secret_key.txt",
+      "status": "1",
+      "idtype": "2",
+      "tags": [
+        1,
+        2
+      ],
+      "traffic": "1364",
+      "connection_date": "21.02.2020  12:11"
+    },
+    {
+      "id": "6",
+      "key": "2bac7814.560da33ae16ace00",
+      "file_private_key": "secret_key.txt",
+      "status": "0",
+      "idtype": "2",
+      "tags": [
+        3,
+        4
+      ],
+      "traffic": "54",
+      "connection_date": "11.01.2020  13:11",
+      "comment": "Возможен комментарий по размещению устройства, номе договора и прочее"
+    },
+    {
+      "id": "7",
+      "key": "2bac7814.560da33ae16a63",
+      "file_private_key": "secret_key.txt",
+      "idtype": "3",
+      "tags": [
+        "6",
+        "7",
+        "2"
+      ],
+      "text": "kjhkk 568889999",
+      "traffic": "0",
+      "connection_date": "23.03.2020 12:11",
+      "company_id": "1",
+      "status": "1"
+    },
+    {
+      "idtype": "3",
+      "tags": [
+        "5",
+        "9"
+      ],
+      "text": "Комментарий к устройству",
+      "logo": {},
+      "id": 142,
+      "key": "2bac7814.560da33ae16a131",
+      "file_private_key": "secret_key.txt",
+      "company_id": "1",
+      "status": "1",
+      "connection_date": "23.03.2020  12:11",
+      "traffic": "0"
+    },
+    {
+      "idtype": "3",
+      "logo": {},
+      "tags": [
+        "5",
+        "9"
+      ],
+      "text": "Комментарий к устройству",
+      "id": 43,
+      "key": "2bac7814.560da33ae16a78",
+      "company_id": "1",
+      "status": "1",
+      "connection_date": "23.03.2020  12:11",
+      "traffic": "0"
+    }
+  ],
+  "traffic": {
+    "year": "2021",
+    "data": [
+      {
+        "month": "январь",
+        "connected": "480",
+        "active": "485",
+        "traffic": "3541365",
+        "file": "",
+        "filesize": "455Mb"
+      },
+      {
+        "month": "февраль",
+        "connected": "498",
+        "active": "490",
+        "traffic": "3641365",
+        "file": "",
+        "filesize": "461Mb"
+      },
+      {
+        "month": "март",
+        "connected": "498",
+        "active": "490",
+        "traffic": "3711365",
+        "file": "",
+        "filesize": "460Mb"
+      },
+      {
+        "month": "апрель",
+        "connected": "498",
+        "active": "490",
+        "traffic": "3831362",
+        "file": "",
+        "filesize": "464Mb"
+      },
+      {
+        "month": "май",
+        "connected": "498",
+        "active": "490",
+        "traffic": "3931360",
+        "file": "",
+        "filesize": "461Mb"
+      },
+      {
+        "month": "июнь",
+        "connected": "498",
+        "active": "490",
+        "traffic": "3961367",
+        "file": "",
+        "filesize": "464Mb"
+      },
+      {
+        "month": "июль",
+        "connected": "498",
+        "active": "490",
+        "traffic": "4461367",
+        "file": "",
+        "filesize": "467Mb"
+      },
+      {
+        "month": "август",
+        "connected": "498",
+        "active": "490",
+        "traffic": "4561367",
+        "file": "",
+        "filesize": "469Mb"
+      },
+      {
+        "month": "сентябрь",
+        "connected": "498",
+        "active": "490",
+        "traffic": "275800",
+        "file": "",
+        "filesize": "37Mb"
+      }
+    ]
+  },
+  "tariff": [
+    {
+      "id": 179,
+      "name": "Тариф 1"
+    },
+    {
+      "id": 225,
+      "name": "Тариф 2"
+    },
+    {
+      "id": 60,
+      "name": "Тариф 3"
+    },
+    {
+      "id": 75,
+      "name": "Тариф 4"
+    },
+    {
+      "id": 40,
+      "name": "Тариф 5"
+    }
+  ],
+  "webhook": [
+    {
+      "name": "Webhook 1. Для всех типов устройств.",
+      "url": "https://domain.ru/webhook/",
+      "secretkey": "sdfsfdsfdsf",
+      "devicetype": "Все типы устройств",
+      "eventtype": "sdfsdfsffsf",
+      "id": 1
+    },
+    {
+      "name": "Webhook 2. Для всех типов устройств.",
+      "url": "https://domain.ru/webhook2/",
+      "secretkey": "sdfsfdsfdsf",
+      "devicetype": "Все типы устройств",
+      "eventtype": "sdfsdfsffsf",
+      "id": 2
+    },
+    {
+      "name": "Webhook 3. Тип устройства 4",
+      "devicetype": "15",
+      "url": "https://domain.ru/webhook3/",
+      "secretkey": {},
+      "eventtype": "массив типа событий",
+      "id": 198
+    },
+    {
+      "name": "Webhook 4. Тип устройства 6",
+      "devicetype": "ZXQVhvK",
+      "secretkey": "secret_key_test",
+      "url": "https://domain.ru/webhook4/",
+      "eventtype": "массив",
+      "id": 145
+    }
+  ],
+  "servers": [
+    {
+      "id": "1",
+      "name": "Сервер 1. Windows",
+      "date": "15:31 02.09.2020",
+      "processes": [
+        {
+          "id": "1",
+          "serverid": "1",
+          "name": "protocol_gateway",
+          "status": "1"
+        },
+        {
+          "id": "2",
+          "serverid": "1",
+          "name": "siblink-backend",
+          "status": "0"
+        }
+      ],
+      "status": "1",
+      "tags": [
+        "Москва",
+        "Датацентр1"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Сервер 2. Ubuntu 18.04",
+      "date": "12:31 02.09.2020",
+      "processes": [
+        {
+          "id": "1",
+          "serverid": "1",
+          "name": "protocol_gateway",
+          "status": "1"
+        }
+      ],
+      "status": "0",
+      "tags": [
+        "Москва",
+        "Датацентр2"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Сервер 3. Debian",
+      "date": "15:31 02.09.2020",
+      "processes": [],
+      "status": "1",
+      "tags": [
+        "Санкт-Петербург",
+        "Датацентр3"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Сервер 4. Ubuntu 18.04",
+      "date": "12:31 02.09.2020",
+      "processes": [],
+      "status": "0",
+      "tags": [
+        "Москва",
+        "Датацентр2"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Сервер 5. Ubuntu 18.04",
+      "date": "15:31 02.09.2020",
+      "processes": [],
+      "status": "1",
+      "tags": [
+        "Москва",
+        "Датацентр1"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Сервер 6. Ubuntu 18.04",
+      "date": "15:31 02.09.2020",
+      "processes": [],
+      "status": "1",
+      "tags": [
+        "Санкт-Петербург",
+        "Датацентр3"
+      ]
+    }
+  ],
+  "serverprocesses": []
+}
