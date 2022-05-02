@@ -1,6 +1,10 @@
 # todo_test
 
-Стек: Nodejs+Vue
+# Тестовое задание компании BeeJee для вакансии Developer Nodejs.
+
+Контактное лицо от работодателя HR BeeJee Алексей
+
+Выполнено с использованием: Nodejs (Express , Sequelize) + Vue (Vuex,Vue CLI)
 
 Проект запущен для тестирования по ссылке: https://todos.mirrorcl.ru/
 
